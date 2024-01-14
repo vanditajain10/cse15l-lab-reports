@@ -12,4 +12,13 @@
 **2. ls Command**
 ![Image](ls command.jpeg)
 
+* Example with no arguments can be seen in the first command line. The working directory when the command was running was home directory. The output shows that 'lecture 1' is present inside the home directory and hence it shows 'lecture 1' as the output. No error is observed in output.
+  
+* Example with path to directory can be seen in the second command line. The working directory the command was running was home directory. The output that we have observed is that all the files inside the 'lecture 1' directoy are being listed 'Hello.class','Hello.java','messages' and README. No error is observed in output.
+
+* Example with path to file can be seen in the third command line. The working directory the command was running was home directory. The output is the path that we have put in as the input only because inside the file there is no sub file present except the file that we had passed in the input hence it just displays that. No error is observed in output.
+
+
+
+
 
