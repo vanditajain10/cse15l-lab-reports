@@ -9,4 +9,7 @@
 
 * Example with path to file can be seen in the third command line. There is no change in the working directory now and it is 'lecture 1' only because we had changed that in the previous commnad. The output can hece be seen as an an error because with cd command we need a directory only to change the directory from one to another but the change from a directory to a file is not possible which can also be seen in the output.
 
+**2. ls Command**
+![Image](ls command.jpeg)
+
 
