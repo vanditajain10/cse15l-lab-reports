@@ -18,6 +18,18 @@
 
 * Example with path to file can be seen in the third command line. The working directory the command was running was home directory. The output is the path that we have put in as the input only because inside the file there is no sub file present except the file that we had passed in the input hence it just displays that. No error is observed in output.
 
+**2. cat Command**
+![Image](cat commnd.jpeg)
+
+* Example with no arguments can be seen in the first command line. The working directory when the command was running was home directory. Since there was no input given the cat command took an empty string as the input and then if we go to the next line and type something then it concatenates it with the empty string only and returns it back. Hence, we can only escpae it by doing command+C. This error can be observed in the output.
+  
+* Example with path to directory can be seen in the second command line. The working directory the command was running was home directory. The argument that we have passed is a directory and the cat command only prints the contents of the file and hence it is mentioned in the output also the lecture 1 is a directory and hence it cannot be printed.
+
+* Example with path to file can be seen in the third command line. The working directory the command was running was home directory. The output is printing all the contents of the file Hello.java. No error is observed in output.
+
+
+
+
 
 
 
