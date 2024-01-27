@@ -51,7 +51,8 @@ class ChatServer {
 
 ```
 * Screenshots of using the ```/add-message```
-* Screenshot 1:
+  
+* *Screenshot 1:*
  ![Image](add1.png)
 1. The method in our code which are being called are ```handleRequest``` and the ```main``` method.
 2.
@@ -61,7 +62,7 @@ class ChatServer {
  * When we have passed this special request the the value of ```parameters``` becomes an array of ```["s","Love CSE 15 L&user","Vandita"]``` whereas the value of ```subParameter``` now becomes an array of ```["Love CSE 15 L","&","user"]``` and finally the value of the ```displayMssg``` field becomes the String ```Vandita: Love CSE 15 L \n``` which is what being displayed.
  * For the ```main``` method
     
-* Screenshot 2:
+* *Screenshot 2:*
 ![Image](add2.png)
 1. The method in our code which are being called are ```handleRequest``` and the ```main``` method.
 2.
@@ -72,3 +73,5 @@ class ChatServer {
  * For the ```main``` method
 
 ## PART 2
+## PART 3
+I learnt how to operate Servers as well as passing in query so that we can change what is being displayed and perform multiple actions in Week 2 . I was also fascinated by how we used the ```mkdir``` and ```ssh``` commands in Week 3 which actually enabled me to store my password. It was really unique to see that the terminal can only implement this and I didn't have to write much of java code too.
