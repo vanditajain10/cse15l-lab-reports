@@ -2,7 +2,7 @@
 
 ## PART 1 
 
-* Code for the Chat Server
+* Code for the ```ChatServer```
 
 ```
 
@@ -50,3 +50,5 @@ class ChatServer {
 }
 
 ```
+* Screenshots of using the ```/add-message```
+  
