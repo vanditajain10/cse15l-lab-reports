@@ -51,4 +51,5 @@ class ChatServer {
 
 ```
 * Screenshots of using the ```/add-message```
-  
+ ![Image](add1.png)
+![Image](add2.png) 
