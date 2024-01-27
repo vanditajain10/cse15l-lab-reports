@@ -55,17 +55,17 @@ class ChatServer {
 * *Screenshot 1:*
  ![Image](add1.png)
 1. The method in our code which are being called are ```handleRequest``` and the ```main``` method.
-2.* The argument for the ```handleRequest``` is ``` URI url``` which is the the URL of the Server we have created. The specific fields which it uses is the ```displayMssg``` field which stores the final String to be displayed which has a current value of an empty string, ```parameters``` is a String array which is used to store the different parts of the query that we have passed in and ```subParameter``` is another String array which further stores the sub components of the query that are required to display the valid message. They both have current values as null.
-* The argument for the ```main``` method is
-3.* When we have passed this special request the the value of ```parameters``` becomes an array of
+2. * The argument for the ```handleRequest``` is ``` URI url``` which is the the URL of the Server we have created. The specific fields which it uses is the ```displayMssg``` field which stores the final String to be displayed which has a current value of an empty string, ```parameters``` is a String array which is used to store the different parts of the query that we have passed in and ```subParameter``` is another String array which further stores the sub components of the query that are required to display the valid message. They both have current values as null.
+* The argument for the ```main``` method is .
+3. * When we have passed this special request the the value of ```parameters``` becomes an array of
 ```["s","Love CSE 15 L&user","Vandita"]``` whereas the value of ```subParameter``` now becomes an array of ```["Love CSE 15 L","&","user"]``` and finally the value of the ```displayMssg``` field becomes the String ```Vandita: Love CSE 15 L \n``` which is what being displayed.
  * For the ```main``` method
     
 * *Screenshot 2:*
 ![Image](add2.png)
 1. The method in our code which are being called are ```handleRequest``` and the ```main``` method.
-2.* The argument for the ```handleRequest``` is ``` URI url``` which is the the URL of the Server we have created. The specific fields which it uses is the ```displayMssg``` field which stores the final String to be displayed which has a current value of a String ```Vandita: Love CSE 15 L \n``` , ```parameters``` is a String array which is used to store the different parts of the query that we have passed in and ```subParameter``` is another String array which further stores the sub components of the query that are required to display the valid message. They both have current values as null.
-* The argument for the ```main``` method is
+2. * The argument for the ```handleRequest``` is ``` URI url``` which is the the URL of the Server we have created. The specific fields which it uses is the ```displayMssg``` field which stores the final String to be displayed which has a current value of a String ```Vandita: Love CSE 15 L \n``` , ```parameters``` is a String array which is used to store the different parts of the query that we have passed in and ```subParameter``` is another String array which further stores the sub components of the query that are required to display the valid message. They both have current values as null.
+* The argument for the ```main``` method is .
 3. * When we have passed this special request the the value of ```parameters``` becomes an array of ```["s","Bonjour&user","Shreya"]``` whereas the value of ```subParameter``` now becomes an array of ```["Bonjour","&","Shreya"]``` and finally the value of the ```displayMssg``` field becomes the String ```Vandita: Love CSE 15 L\n Shreya: Bonjour\n``` which is what being displayed.
  * For the ```main``` method
 
