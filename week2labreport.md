@@ -67,6 +67,9 @@ class ChatServer {
 
 ## PART 2
 1. *Private Key Absolute Path:```/Users/vanditajain/.ssh/id_rsa.pub```*
+   ![Image](private.png)
 2. *Public Key Absolute Path:```/home/linux/ieng6/oce/60/060/v4jain/.ssh/authorized_keys```*
+   ![Image](public.png)
+3. We can see in the Screenshot above that I was not asked for my password and it automatically logged me in.
 ## PART 3
 I learnt how to operate Servers as well as passing in query so that we can change what is being displayed and perform multiple actions in Week 2 . I was also fascinated by how we used the ```mkdir``` and ```ssh``` commands in Week 3 which actually enabled me to store my password. It was really unique to see that the terminal can only implement this and I didn't have to write much of java code too.
