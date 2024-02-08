@@ -24,7 +24,7 @@ public void testReversed2() {
 }
  ```
 * Output
-
+![Image](testfail.png)
 * Bug before
 ```
 static int[] reversed(int[] arr) {
