@@ -71,7 +71,7 @@ class ChatServer {
 3. When we have passed this special request the the value of ``` URI url``` is [https://0-0-0-0-4000-3luhckvmqqqjfa22l52no227s4.us.edusercontent.com/add-message?s=Bonjour&user=Shreya](https://0-0-0-0-4000-3luhckvmqqqjfa22l52no227s4.us.edusercontent.com/add-message?s=Bonjour&user=Shreya) and the the value of ```parameters``` becomes an array of ```["s","Bonjour&user","Shreya"]``` whereas the value of ```subParameter``` now becomes an array of ```["Bonjour","&","Shreya"]``` and finally the value of the ```displayMssg``` field becomes the String ```Vandita: Love CSE 15 L\n Shreya: Bonjour\n``` which is what being displayed.
 
 ## PART 2
-1. *Private Key Absolute Path:```/Users/vanditajain/.ssh/id_rsa.pub```*
+1. *Private Key Absolute Path:```/Users/vanditajain/.ssh/id_rsa```*
    ![Image](private.png)
 2. *Public Key Absolute Path:```/home/linux/ieng6/oce/60/060/v4jain/.ssh/authorized_keys```*
    ![Image](public.png)
