@@ -23,8 +23,12 @@ class Handler implements URLHandler {
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
                     String[] subParameter=(parameters[1]).split("&");
-                    displayMssg+=parameters[2]+": "+ subParameter[0]+"\n";
-                    return displayMssg;
+                    if(subParameter[1].equals("user")){
+                        displayMssg+=parameters[2]+": "+ subParameter[0]+"\n";
+                        return displayMssg;
+
+                    }
+                    
                     
                     }
                 
@@ -35,6 +39,7 @@ class Handler implements URLHandler {
     }
         
 }
+
 
 class ChatServer {
     public static void main(String[] args) throws IOException {
