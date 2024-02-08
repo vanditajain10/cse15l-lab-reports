@@ -72,7 +72,7 @@ class ChatServer {
 
 ## PART 2
 1. *Private Key Absolute Path:```/Users/vanditajain/.ssh/id_rsa```*
-   ![Image](private.png)
+   ![Image](pvt.png)
 2. *Public Key Absolute Path:```/home/linux/ieng6/oce/60/060/v4jain/.ssh/authorized_keys```*
    ![Image](public.png)
 3. We can see in the Screenshot above that I was not asked for my password and it automatically logged me in.
