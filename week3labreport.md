@@ -51,8 +51,8 @@ static int[] reversed(int[] arr) {
 ## PART 2
 ## Command:- ``` find ```
 
-* The ``` -type ``` option
-* Source :- [Link](https://www.redhat.com/sysadmin/linux-find-command)
+* ** The ``` -type ``` option **
+* ** Source :- [https://www.redhat.com/sysadmin/linux-find-command](https://www.redhat.com/sysadmin/linux-find-command) **
 
 1. Example 1:-
 * Input:- ``` find ./911report  -type f ```
@@ -100,8 +100,8 @@ This command gives the path of all the files that are present in the current wor
   
 This command gives the path of all the directories that are present in the current working directory i.e ``` /technical ```. It is helpful in order to get an idea of the directories are present as well as how to access them.
 
-* The ``` -size ``` option
-* Source:- [Link](https://tecadmin.net/linux-find-command-with-examples/)
+* ** The ``` -size ``` option **
+* ** Source:- [https://tecadmin.net/linux-find-command-with-examples/](https://tecadmin.net/linux-find-command-with-examples/) ** 
 
 1. Example 1:-
 * Input:- ``` find ./plos -size +25k ```
@@ -141,8 +141,8 @@ This command gives the path of all the files that are present in the current wor
 ```
 This command gives the path of all the files that are present in the current working directory i.e ``` /technical/biomed``` which have size less than 10KB. It is helpful in order to get an idea of the files that are present of a specific size. We can give the range preference too according to our own wish.
 
-* The ``` -name ``` option
-* Source:- [Link](https://tecadmin.net/linux-find-command-with-examples/)
+* ** The ``` -name ``` option **
+* ** Source:- [https://tecadmin.net/linux-find-command-with-examples/](https://tecadmin.net/linux-find-command-with-examples/) **
 
 1. Example 1:-
 * Input:- ``` find ./911report -name 'chapter-8.txt' ```
@@ -165,8 +165,63 @@ This command gives the path the file which has a name of chapter-8.txt present i
 ```
 This command gives the path all the files which have an extension of .txt that present in the current working directory i.e ``` /technical/government/Alcohol_Problems ``` . It is helpful when we want to see and manipulate the extensions of different files that are present inside certain directories.
 
+* ** The ``` -mtime ``` option **
+* ** Source:- [https://www.geeksforgeeks.org/find-command-in-linux-with-examples/](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/) **
 
 
+1. Example 1:-
+* Input:- ``` find ./911report -mtime -7 ```
+* Output :-
+
+```
+./911report
+./911report/chapter-13.4.txt
+./911report/chapter-13.5.txt
+./911report/chapter-13.1.txt
+./911report/chapter-13.2.txt
+./911report/chapter-13.3.txt
+./911report/chapter-3.txt
+./911report/chapter-2.txt
+./911report/chapter-1.txt
+./911report/chapter-5.txt
+./911report/chapter-6.txt
+./911report/chapter-7.txt
+./911report/chapter-9.txt
+./911report/chapter-8.txt
+./911report/preface.txt
+./911report/chapter-12.txt
+./911report/chapter-10.txt
+./911report/chapter-11.txt
+
+```
+
+This command gives the path of all the files which have been modified in the last 7 days and are present in the current working directory i.e ``` /technical/911report ``` . It is helpful in order to get an idea of all the modifications that have taken place especially when multiple people are working on the same project.
+
+
+2. Example 2:-
+* Input:- ``` find ./government/Env_Prot_Agen -mtime -5 ```
+* Output :-
+
+```
+./government/Env_Prot_Agen
+./government/Env_Prot_Agen/multi102902.txt
+./government/Env_Prot_Agen/section-by-section_summary.txt
+./government/Env_Prot_Agen/jeffordslieberm.txt
+./government/Env_Prot_Agen/final.txt
+./government/Env_Prot_Agen/ctf7-10.txt
+./government/Env_Prot_Agen/ctf1-6.txt
+./government/Env_Prot_Agen/ro_clear_skies_book.txt
+./government/Env_Prot_Agen/ctm4-10.txt
+./government/Env_Prot_Agen/1-3_meth_901.txt
+./government/Env_Prot_Agen/atx1-6.txt
+./government/Env_Prot_Agen/tech_sectiong.txt
+./government/Env_Prot_Agen/bill.txt
+./government/Env_Prot_Agen/nov1.txt
+./government/Env_Prot_Agen/tech_adden.txt
+
+```
+
+This command gives the path of all the files which have been modified in the last 5 days and are present in the current working directory i.e ```/technical/government/Env_Prot_Agen ``` . It is helpful in order to get an idea of all the modifications that have taken place especially when multiple people are working on the same project. It is also useful when we want to check if we have accidentally modified a file in that particular directory or not 
 
 
 
