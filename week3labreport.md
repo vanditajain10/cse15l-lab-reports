@@ -49,6 +49,8 @@ static int[] reversed(int[] arr) {
 ```
 
 ## PART 2
+## Command:- ``` find ```
+
 
 
 
