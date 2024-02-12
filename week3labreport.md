@@ -52,6 +52,7 @@ static int[] reversed(int[] arr) {
 ## Command:- ``` find ```
 
 * The ``` -type ``` option
+* Source :- [Link](https://www.redhat.com/sysadmin/linux-find-command)
 
 1. Example 1:-
 * Input:- ``` find . -type f ```
@@ -1095,6 +1096,12 @@ This command gives the path of all the files that are present in the current wor
 ```
   
 This command gives the path of all the directories that are present in the current working directory i.e ``` /technical ```. It is helpful in order to get an idea of the directories are present as well as how to access them.
+
+* The ``` -iname ``` option
+
+1. Example 1:-
+* Input:- ``` find . -type f ```
+* Output :-
 
 
 
