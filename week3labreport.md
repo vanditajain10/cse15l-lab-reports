@@ -57,7 +57,8 @@ static int[] reversed(int[] arr) {
 1. Example 1:-
 * Input:- ``` find . -type f ```
 * Output :-
-``` ./plos/pmed.0020216.txt
+```
+./plos/pmed.0020216.txt
 ./plos/journal.pbio.0030094.txt
 ./plos/journal.pbio.0020046.txt
 ./plos/pmed.0020028.txt
@@ -1097,11 +1098,51 @@ This command gives the path of all the files that are present in the current wor
   
 This command gives the path of all the directories that are present in the current working directory i.e ``` /technical ```. It is helpful in order to get an idea of the directories are present as well as how to access them.
 
-* The ``` -iname ``` option
+* The ``` -size ``` option
+* Source:- [Link](https://tecadmin.net/linux-find-command-with-examples/)
 
 1. Example 1:-
-* Input:- ``` find . -type f ```
+* Input:- ``` find ./plos -size +25k ```
 * Output :-
+
+```
+./plos/pmed.0020059.txt
+./plos/pmed.0020073.txt
+./plos/pmed.0020249.txt
+./plos/pmed.0020103.txt
+./plos/pmed.0010028.txt
+./plos/pmed.0010064.txt
+./plos/pmed.0020160.txt
+./plos/pmed.0010062.txt
+./plos/pmed.0020162.txt
+./plos/pmed.0020016.txt
+./plos/pmed.0020018.txt
+./plos/pmed.0020182.txt
+./plos/pmed.0020246.txt
+./plos/pmed.0020050.txt
+./plos/pmed.0020045.txt
+./plos/journal.pbio.0020439.txt
+./plos/pmed.0010036.txt
+./plos/pmed.0010008.txt
+
+```
+This command gives the path of all the files that are present in the current working directory i.e ``` /technical/plos``` which have size greater than 25KB. It is helpful in order to get an idea of the files that are present of a specific size.
+
+2. Example 2:-
+* Input:- ``` find ./biomed -size -10k ```
+* Output :-
+
+```
+./biomed/1472-6769-1-4.txt
+./biomed/1471-2490-3-2.txt
+./biomed/1471-2334-3-13.txt
+
+```
+This command gives the path of all the files that are present in the current working directory i.e ``` /technical/biomed``` which have size less than 10KB. It is helpful in order to get an idea of the files that are present of a specific size. We can give the range preference too according to our own wish.
+
+
+
+
 
 
 
