@@ -150,7 +150,7 @@ This command gives the path of all the files that are present in the current wor
 
 ``` ./911report/chapter-8.txt ```
 
-This command gives the path the file which has a name of chapter-8.txt present in the current working directory i.e ``` /technical/911report ``` . It is helpful in order to find the path of the specific file which we might just know by name and not its path.
+This command gives the path the file which has a name of ``` chapter-8.txt ``` present in the current working directory i.e ``` /technical/911report ``` . It is helpful in order to find the path of the specific file which we might just know by name and not its path.
 
 2. Example 2:-
 * Input:- ``` find ./government/Alcohol_Problems -name '*.txt'```
