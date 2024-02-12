@@ -51,10 +51,10 @@ static int[] reversed(int[] arr) {
 ## PART 2
 ## Command:- ``` find ```
 
-* ** The ``` -type ``` option **
-* ** Source :- [https://www.redhat.com/sysadmin/linux-find-command](https://www.redhat.com/sysadmin/linux-find-command) **
+* **The ``` -type ``` option**
+* **Source :- [https://www.redhat.com/sysadmin/linux-find-command](https://www.redhat.com/sysadmin/linux-find-command)**
 
-1. Example 1:-
+**Example 1:-**
 * Input:- ``` find ./911report  -type f ```
 * Output :-
 
@@ -80,7 +80,7 @@ static int[] reversed(int[] arr) {
 ```
 This command gives the path of all the files that are present in the current working directory i.e ``` /technical/911report  ```. It is helpful in order to get an idea of the files are present in our repository. It is also useful in order to get the path of a specific file in a specific directory. 
 
-2. Example 2:-
+**Example 2:-**
 * Input:- ``` find . -type d ```
 * Output :-
 
@@ -100,10 +100,10 @@ This command gives the path of all the files that are present in the current wor
   
 This command gives the path of all the directories that are present in the current working directory i.e ``` /technical ```. It is helpful in order to get an idea of the directories are present as well as how to access them.
 
-* ** The ``` -size ``` option **
-* ** Source:- [https://tecadmin.net/linux-find-command-with-examples/](https://tecadmin.net/linux-find-command-with-examples/) ** 
+* **The ``` -size ``` option**
+* **Source:- [https://tecadmin.net/linux-find-command-with-examples/](https://tecadmin.net/linux-find-command-with-examples/)** 
 
-1. Example 1:-
+**Example 1:-**
 * Input:- ``` find ./plos -size +25k ```
 * Output :-
 
@@ -129,7 +129,7 @@ This command gives the path of all the directories that are present in the curre
 ```
 This command gives the path of all the files that are present in the current working directory i.e ``` /technical/plos``` which have size greater than 25KB. It is helpful in order to get an idea of the files that are present of a specific size.
 
-2. Example 2:-
+**Example 2:-**
 * Input:- ``` find ./biomed -size -10k ```
 * Output :-
 
@@ -141,10 +141,10 @@ This command gives the path of all the files that are present in the current wor
 ```
 This command gives the path of all the files that are present in the current working directory i.e ``` /technical/biomed``` which have size less than 10KB. It is helpful in order to get an idea of the files that are present of a specific size. We can give the range preference too according to our own wish.
 
-* ** The ``` -name ``` option **
-* ** Source:- [https://tecadmin.net/linux-find-command-with-examples/](https://tecadmin.net/linux-find-command-with-examples/) **
+* **The ``` -name ``` option**
+* **Source:- [https://tecadmin.net/linux-find-command-with-examples/](https://tecadmin.net/linux-find-command-with-examples/)**
 
-1. Example 1:-
+**Example 1:-**
 * Input:- ``` find ./911report -name 'chapter-8.txt' ```
 * Output :-
 
@@ -152,7 +152,7 @@ This command gives the path of all the files that are present in the current wor
 
 This command gives the path the file which has a name of ``` chapter-8.txt ``` present in the current working directory i.e ``` /technical/911report ``` . It is helpful in order to find the path of the specific file which we might just know by name and not its path.
 
-2. Example 2:-
+**Example 2:-**
 * Input:- ``` find ./government/Alcohol_Problems -name '*.txt'```
 * Output :-
 
@@ -165,11 +165,11 @@ This command gives the path the file which has a name of ``` chapter-8.txt ``` p
 ```
 This command gives the path all the files which have an extension of .txt that present in the current working directory i.e ``` /technical/government/Alcohol_Problems ``` . It is helpful when we want to see and manipulate the extensions of different files that are present inside certain directories.
 
-* ** The ``` -mtime ``` option **
-* ** Source:- [https://www.geeksforgeeks.org/find-command-in-linux-with-examples/](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/) **
+* **The ``` -mtime ``` option**
+* **Source:- [https://www.geeksforgeeks.org/find-command-in-linux-with-examples/](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)**
 
 
-1. Example 1:-
+**Example 1:-**
 * Input:- ``` find ./911report -mtime -7 ```
 * Output :-
 
@@ -198,7 +198,7 @@ This command gives the path all the files which have an extension of .txt that p
 This command gives the path of all the files which have been modified in the last 7 days and are present in the current working directory i.e ``` /technical/911report ``` . It is helpful in order to get an idea of all the modifications that have taken place especially when multiple people are working on the same project.
 
 
-2. Example 2:-
+**Example 2:-**
 * Input:- ``` find ./government/Env_Prot_Agen -mtime -5 ```
 * Output :-
 
