@@ -2,7 +2,7 @@
 
 ## PART 1 
 
-## Bug:- Method static int[] reversed(int[] arr)
+## Bug:- Method ``` static int[] reversed(int[] arr) ```
 
 * Failure-inducing input
   
@@ -25,8 +25,7 @@ public void testReversed2() {
  ```
 * The symptom
 ![Image](testfail.png)
-* Bug before
-The bug arises in the line ``` arr[i] = newArray[arr.length - i - 1]; ``` because we are changing the values of the original array due to which we are not being able to correctly extract the value present at previous indexes.
+* Bug before:- The bug arises in the line ``` arr[i] = newArray[arr.length - i - 1]; ``` because we are changing the values of the original array due to which we are not being able to correctly extract the value present at previous indexes.
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -38,8 +37,7 @@ static int[] reversed(int[] arr) {
   }
 ```
 
-* Ammended code after fixing the bug
-I have fixed the bug by replacing the line with the bug by ``` newArray[i] = arr[arr.length - i - 1]; ``` line as well as returning the new array. Through this I am able to correctly extract the value at previous indexes and assign them to the correct indexes of the new array.
+* Ammended code:- I have fixed the bug by replacing the line with the bug by ``` newArray[i] = arr[arr.length - i - 1]; ``` line as well as returning the new array. Through this I am able to correctly extract the value at previous indexes and assign them to the correct indexes of the new array.
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
