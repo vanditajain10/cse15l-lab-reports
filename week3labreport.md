@@ -141,6 +141,31 @@ This command gives the path of all the files that are present in the current wor
 ```
 This command gives the path of all the files that are present in the current working directory i.e ``` /technical/biomed``` which have size less than 10KB. It is helpful in order to get an idea of the files that are present of a specific size. We can give the range preference too according to our own wish.
 
+* The ``` -name ``` option
+* Source:- [Link](https://tecadmin.net/linux-find-command-with-examples/)
+
+1. Example 1:-
+* Input:- ``` find ./911report -name 'chapter-8.txt' ```
+* Output :-
+
+``` ./911report/chapter-8.txt ```
+
+This command gives the path the file which has a name of chapter-8.txt present in the current working directory i.e ``` /technical/911report ``` . It is helpful in order to find the path of the specific file which we might just know by name and not its path.
+
+2. Example 2:-
+* Input:- ``` find ./government/Alcohol_Problems -name '*.txt'```
+* Output :-
+
+```
+./government/Alcohol_Problems/Session2-PDF.txt
+./government/Alcohol_Problems/Session3-PDF.txt
+./government/Alcohol_Problems/DraftRecom-PDF.txt
+./government/Alcohol_Problems/Session4-PDF.txt
+
+```
+This command gives the path all the files which have an extension of .txt that present in the current working directory i.e ``` /technical/government/Alcohol_Problems ``` . It is helpful when we want to see and manipulate the extensions of different files that are present inside certain directories.
+
+
 
 
 
