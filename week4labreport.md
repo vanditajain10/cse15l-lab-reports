@@ -8,8 +8,6 @@ For logging into my ieng6 account I typed in the command
 ![Image](step4.png)
 
 
-
-
 ## STEP 5
 
 After this , I typed in the command ``` git clone git@github.com:vanditajain10/lab7.git ``` and in order to paste the ssh path from the github page to the terminal, I pressed the key ``` Command + V ``` followed by pressing the ```<enter>``` key which allowed the terminal to execute the command. This command allowed me to clone my repository 
@@ -28,6 +26,20 @@ I typed in the command ``` vim listExamples.java ``` and pressed the ```<enter>`
 
 ![Image](step7.png)
 ![Image](step7pt2.png)
+
+## STEP 8
+
+I then again run the command ``` bash test.sh ``` by pressing the ``` <arrow+up> ``` key once to find the command from my history and then pressed the ```<enter>``` key which allowed the terminal to execute the command. This ran the tests and indicated that the test ran successfully without an error.
+
+![Image](step8.png)
+
+## STEP 9
+
+Then I ran the command ``` git add ListExamples.java ``` followed by pressing the ```<enter>``` key which allowed the terminal to execute the command in order to add the ammended file. I then ran the command ``` git commit -m "Completed the required steps" ``` followed by pressing the ```<enter>``` key which allowed the terminal to execute the command which allowed me to commit my changes. I finally ran the command ``` git push origin main ```  followed by pressing the ```<enter>``` key which allowed the terminal to execute the command which allowed me to push all of my local commits in the main branch of the forked reposity.
+
+![Image](step9.png)
+![Image](step9pt2.png)
+
 
 
 
