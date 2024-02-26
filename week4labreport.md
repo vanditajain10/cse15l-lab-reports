@@ -22,7 +22,14 @@ I then typed the command ``` bash test.sh ``` followed by pressing the ```<enter
 
 ## STEP 7
 
-I typed in the command ``` vim listExamples.java ``` and pressed the ```<enter>``` key which allowed the terminal to execute the command so that I can open the ``` listExamples.java ``` and edit it through vim in the terminal. In order to fix the error. I pressed ```<j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j> ``` in total of 44 times in order to move the cursor down, ```<l><l><l><l><l><l><l><l><l><l><l>``` in total of 11 times so that the cursor goes right, ``` <x> ``` in order to delete the '1' character, ``` <i> ``` so that the insert mode is activated , ``` <2> ``` in order to add the '2' character after index word, ``` <esc> ``` to go back to the normal more and finally I pressed ``` <:w+q+!> ``` in order to save and exit.
+I typed in the command ``` vim listExamples.java ``` and pressed the ```<enter>``` key which allowed the terminal to execute the command so that I can open the ``` listExamples.java ``` and edit it through vim in the terminal. In order to fix the error. 
+* I pressed ```<j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j> ``` in total of 44 times in order to move the cursor down
+* I pressed ```<l><l><l><l><l><l><l><l><l><l><l>``` in total of 11 times so that the cursor goes right.
+* I pressed ``` <x> ``` in order to delete the '1' character.
+* I pressed ``` <i> ``` so that the insert mode is activated.
+* I pressed ``` <2> ``` in order to add the '2' character after index word.
+* I pressed ``` <esc> ``` to go back to the normal more.
+* Finally I pressed ``` <:w+q+!> ``` in order to save and exit.
 
 ![Image](step7.png)
 ![Image](step7pt2.png)
