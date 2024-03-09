@@ -17,4 +17,11 @@ Oh! I realised that I had used $0 instead of $1 after ``` git clone ``` due to w
 ![Image](correct.png)
 ![Image](test.png)
 
+## The structure need 
+* The file & directory structure needed -->
+* The contents of each file before fixing the bug -->
+* The full command line (or lines) you ran to trigger the bug --> ```  bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected ```
+* A description of what to edit to fix the bug --> ``` vim grade.sh ``` then go to the line ``` git clone $0 student-submission ``` then delete 0 by pressing ```<x>``` and then change to insert mode by pressing ```<i>``` and add to make it ``` git clone $1 student-submission ``` then type ```: + <w>+  <q>+  !``` then again run the command.
 
+## PART 2
+Something really fun I learnt in lab and lecture last week was jdb . I didnt know that java had its own debugger. I was suprised that how different it was from bash and that in some cases it is better to use bash than jdb like when we use * to search with file names. I also didnt know about vim and that how we could just edit and view files in the terminal.
