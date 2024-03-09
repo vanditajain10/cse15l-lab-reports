@@ -17,5 +17,4 @@ Oh! I realised that I had used $0 instead of $1 after ``` git clone ``` due to w
 ![Image](correct.png)
 ![Image](test.png)
 
-## TA:-
 
