@@ -22,7 +22,7 @@ Oh! I realised that I had used $0 instead of $1 after ``` git clone ``` due to w
 * 
 * 
 * The contents of each file before fixing the bug -->
-* ## BEFORE IN THE BASH SCRIPT TEST.SH
+* ## BEFORE IN THE BASH SCRIPT grade.sh
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
@@ -73,7 +73,7 @@ then
 
 fi
 ```
-* ## AFTER IN THE BASH SCRIPT TEST.SH
+* ## AFTER IN THE BASH SCRIPT grade.sh
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
