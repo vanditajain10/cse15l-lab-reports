@@ -23,14 +23,15 @@ Oh! I realised that I had used $0 instead of $1 after ``` git clone ``` due to w
 * 
 * The contents of each file before fixing the bug -->
 * ## BEFORE IN THE BASH SCRIPT TEST.SH
-* ``` CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
+```
+CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
 rm -rf student-submission
 rm -rf grading-area
 
 mkdir grading-area
 
-git clone $1 student-submission
+git clone $0 student-submission
 echo 'Finished cloning'
 
 pwd
@@ -70,7 +71,8 @@ then
     tests=$(echo $lastline | awk -F'[, ]' '{print $4}')
     echo "Your score is 100%"
 
-fi ```
+fi
+```
 * ## AFTER IN THE BASH SCRIPT TEST.SH
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
