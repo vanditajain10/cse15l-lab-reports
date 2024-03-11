@@ -19,7 +19,7 @@ Oh! I realised that I had used $0 instead of $1 after ``` git clone ``` due to w
 
 ## The structure need 
 * The file & directory structure needed -->
-* 
+* ![Image](file structure.png)
 * 
 * The contents of each file before fixing the bug -->
 * ## BEFORE IN THE BASH SCRIPT grade.sh
